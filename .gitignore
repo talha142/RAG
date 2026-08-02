@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# Chroma vector store (large binary files, regenerate with ingest.py)
+data/chroma_db/
+
+# Raw fetched data (regenerate with ingest.py)
+data/raw/
+
+# Environment variables
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
